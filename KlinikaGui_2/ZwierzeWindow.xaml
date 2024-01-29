@@ -1,0 +1,18 @@
+﻿<Window x:Class="KlinikaGui_2.ZwierzeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KlinikaGui_2"
+        mc:Ignorable="d"
+        Title="ZwierzeWindow" Height="450" Width="800">
+    <Grid Background="#FFF3C2C2">
+        <Button x:Name="BtnDodaj" Content="Dodaj" HorizontalAlignment="Left" Height="52" Margin="50,260,0,0" VerticalAlignment="Top" Width="226" Click="BtnDodaj_Click" FontFamily="Bookman Old Style" BorderBrush="White" Background="White"/>
+        <ListBox x:Name="LstZwierzat" HorizontalAlignment="Left" Height="325" Margin="359,65,0,0" VerticalAlignment="Top" Width="404"/>
+        <Button x:Name="BtnUsunZwierze" Content="Usuń" HorizontalAlignment="Left" Height="52" Margin="50,338,0,0" VerticalAlignment="Top" Width="226" Click="BtnUsunZwierze_Click" FontFamily="Bookman Old Style" Background="White" BorderBrush="White"/>
+        <Button x:Name="BtnSortuj" Content="Sortuj po imieniu" HorizontalAlignment="Left" Height="51" Margin="50,65,0,0" VerticalAlignment="Top" Width="226" Click="BtnSortuj_Click" FontFamily="Bookman Old Style" Background="White" BorderBrush="White"/>
+        <Label Content="Zarejestrowane Zwierzęta:" HorizontalAlignment="Left" Height="37" Margin="359,23,0,0" VerticalAlignment="Top" Width="370" FontSize="20" FontFamily="Bookman Old Style" FontWeight="Bold"/>
+
+
+    </Grid>
+</Window>

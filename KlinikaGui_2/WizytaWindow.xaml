@@ -1,0 +1,17 @@
+﻿<Window x:Class="KlinikaGui_2.WizytaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KlinikaGui_2"
+        mc:Ignorable="d"
+        Title="WizytaWindow" Height="450" Width="800">
+    <Grid Background="#FFF3C2C2">
+        <Button x:Name="BtnWyswietlHistorieZwierzecia" Content="Wyświetl historię zwierzęcia" HorizontalAlignment="Left" Height="80" Margin="68,140,0,0" VerticalAlignment="Top" Width="310" Click="BtnWyswietlHistorieZwierzecia_Click" FontFamily="Bookman Old Style" FontSize="17" Background="White" BorderBrush="White"/>
+        <Button x:Name="BtnUmowWizyte" Content="Umów nową wizytę" HorizontalAlignment="Left" Height="80" Margin="68,242,0,0" VerticalAlignment="Top" Width="310" Click="BtnUmowWizyte_Click" FontFamily="Bookman Old Style" FontSize="17" Background="White" BorderBrush="White"/>
+        <Button x:Name="BtnUmowienieWizytyLekarza" Content="Umówione wizyty lekarza" HorizontalAlignment="Left" Height="80" Margin="427,140,0,0" VerticalAlignment="Top" Width="310" Click="BtnUmowienieWizytyLekarza_Click" FontSize="17" FontFamily="Bookman Old Style" BorderBrush="White" Background="White"/>
+        <Button x:Name="ZaplanowaneWizyty" Content="Wyświetl wizyty zwierzęcia" HorizontalAlignment="Left" Height="80" Margin="427,242,0,0" VerticalAlignment="Top" Width="310" Click="ZaplanowaneWizyty_Click" FontFamily="Bookman Old Style" FontSize="17" BorderBrush="White" Background="White"/>
+        <Label Content="Wybierz opcję:" HorizontalAlignment="Left" Height="44" Margin="68,45,0,0" VerticalAlignment="Top" Width="238" FontFamily="Bookman Old Style" FontSize="30" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

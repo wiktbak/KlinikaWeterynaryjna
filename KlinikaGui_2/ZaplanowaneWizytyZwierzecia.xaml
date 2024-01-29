@@ -1,0 +1,16 @@
+﻿<Window x:Class="KlinikaGui_2.ZaplanowaneWizytyZwierzecia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KlinikaGui_2"
+        mc:Ignorable="d"
+        Title="ZaplanowaneWizytyZwierzecia" Height="450" Width="800">
+    <Grid Background="#FFF3C2C2">
+        <ListBox x:Name="LstZaplWizyty" HorizontalAlignment="Left" Height="241" Margin="439,111,0,0" VerticalAlignment="Top" Width="350"/>
+        <ListBox x:Name="LstWybierzZwierzeZ" HorizontalAlignment="Left" Height="241" Margin="14,111,0,0" VerticalAlignment="Top" Width="350"/>
+        <Label Content="Zaplanowane Wizyty Zwierzęcia:" HorizontalAlignment="Left" Height="33" Margin="439,63,0,0" VerticalAlignment="Top" Width="296" FontFamily="Bookman Old Style" FontSize="17" FontWeight="Bold"/>
+        <Label Content="Wybierz Zwierzę:" HorizontalAlignment="Left" Height="33" Margin="68,63,0,0" VerticalAlignment="Top" Width="296" FontSize="17" FontFamily="Bookman Old Style" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
